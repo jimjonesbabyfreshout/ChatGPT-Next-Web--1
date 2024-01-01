@@ -3,11 +3,15 @@
 
 <h1 align="center">NextChat (ChatGPT Next Web)</h1>
 
+NextChat (ChatGPT Next Web)
+
+
+
 English / [简体中文](./README_CN.md)
 
 One-Click to get a well-designed cross-platform ChatGPT web UI, with GPT3, GPT4 & Gemini Pro support.
 
-一键免费部署你的跨平台私人 ChatGPT 应用, 支持 GPT3, GPT4 & Gemini Pro 模型。
+Deploy your cross-platform private ChatGPT application for free with one click, supporting GPT3, GPT4 & Gemini Pro models.
 
 [![Web][Web-image]][web-url]
 [![Windows][Windows-image]][download-url]
@@ -16,7 +20,7 @@ One-Click to get a well-designed cross-platform ChatGPT web UI, with GPT3, GPT4 
 
 [Web App](https://app.nextchat.dev/) / [Desktop App](https://github.com/Yidadaa/ChatGPT-Next-Web/releases) / [Discord](https://discord.gg/YCkeafCafC) / [Twitter](https://twitter.com/mortiest_ricky) / [Buy Me a Coffee](https://www.buymeacoffee.com/yidadaa)
 
-[网页版](https://app.nextchat.dev/) / [客户端](https://github.com/Yidadaa/ChatGPT-Next-Web/releases) / [反馈](https://github.com/Yidadaa/ChatGPT-Next-Web/issues) / [QQ 群](https://github.com/Yidadaa/ChatGPT-Next-Web/discussions/1724) / [打赏开发者](https://user-images.githubusercontent.com/16968934/227772541-5bcd52d8-61b7-488c-a203-0330d8006e2b.jpg)
+[Web version](https://app.nextchat.dev/) / [Client](https://github.com/Yidadaa/ChatGPT-Next-Web/releases) / [Feedback](https://github .com/Yidadaa/ChatGPT-Next-Web/issues) / [QQ Group](https://github.com/Yidadaa/ChatGPT-Next-Web/discussions/1724) / [Tip developers](https:/ /user-images.githubusercontent.com/16968934/227772541-5bcd52d8-61b7-488c-a203-0330d8006e2b.jpg)
 
 [web-url]: https://chatgpt.nextweb.fun
 [download-url]: https://github.com/Yidadaa/ChatGPT-Next-Web/releases
@@ -33,7 +37,9 @@ One-Click to get a well-designed cross-platform ChatGPT web UI, with GPT3, GPT4 
 
 ![cover](./docs/images/cover.png)
 
-</div>
+
+   
+
 
 ## Features
 
@@ -47,7 +53,7 @@ One-Click to get a well-designed cross-platform ChatGPT web UI, with GPT3, GPT4 
 - New in v2: create, share and debug your chat tools with prompt templates (mask)
 - Awesome prompts powered by [awesome-chatgpt-prompts-zh](https://github.com/PlexPt/awesome-chatgpt-prompts-zh) and [awesome-chatgpt-prompts](https://github.com/f/awesome-chatgpt-prompts)
 - Automatically compresses chat history to support long conversations while also saving your tokens
-- I18n: English, 简体中文, 繁体中文, 日本語, Français, Español, Italiano, Türkçe, Deutsch, Tiếng Việt, Русский, Čeština, 한국어, Indonesia
+- I18n: English, Spanish, Italian, Türkçe, Deutsch, Tiếng Việt, Русский, Čeština, 한국어, Indonesia
 
 ## Roadmap
 
@@ -67,10 +73,10 @@ One-Click to get a well-designed cross-platform ChatGPT web UI, with GPT3, GPT4 
 - 🚀 v2.7 let's share conversations as image, or share to ShareGPT!
 - 🚀 v2.0 is released, now you can create prompt templates, turn your ideas into reality! Read this: [ChatGPT Prompt Engineering Tips: Zero, One and Few Shot Prompting](https://www.allabtai.com/prompt-engineering-tips-zero-one-and-few-shot-prompting/).
 
-## 主要功能
+## The main function
 
-- 在 1 分钟内使用 Vercel **免费一键部署**
-- 提供体积极小（~5MB）的跨平台客户端（Linux/Windows/MacOS）, [下载地址](https://github.com/Yidadaa/ChatGPT-Next-Web/releases)
+- Use Vercel in 1 minute **Free one-click deployment**
+- Provides a very small (~5MB) cross-platform client (Linux/Windows/MacOS), [Download address](https://github.com/Yidadaa/ChatGPT-Next-Web/releases)
 - Complete Markdown support: LaTex formulas, Mermaid flowcharts, code highlighting, etc.
 - Well-designed UI, responsive design, support for dark mode, support for PWA
 - Extremely fast first screen loading speed (~100kb), support streaming response
@@ -78,7 +84,7 @@ One-Click to get a well-designed cross-platform ChatGPT web UI, with GPT3, GPT4 
 - Pre-made character function (mask), easy to create, share and debug your personalized conversations
 - Massive built-in prompt list, from 和[English](https://github.com/f/awesome-chatgpt-prompts)
 - Automatically compress contextual chat records to support long conversations while saving tokens
-- Multi-language support: English, Simplified Chinese, traditional Chinese, Japanese, Espanyol, Italiano, Türkçe, Deutsch, Tingng Vitt, Русский, Čeština, Indonesia
+- Multi-language support: English, Simplified Chinese, Traditional Chinese, Japanese, Spanish, Italian, Turkish, German, Chinese, Portuguese, Portuguese, Indonesia
 - Own your own domain name?Good plus good, after binding, you can quickly access it anywhere**barrier-free**
 
 ## Development plan
@@ -86,9 +92,9 @@ One-Click to get a well-designed cross-platform ChatGPT web UI, with GPT3, GPT4 
 - [x] Set the system Prompt for each conversation [#138] (https://github.com/Yidadaa/ChatGPT-Next-Web/issues/138 )
 - [x] Allows users to edit the built-in Prompt list by themselves
 - [x] Prefabricated characters: Use prefabricated characters to quickly customize new conversations [#993](https://github.com/Yidadaa/ChatGPT-Next-Web/issues/993)
-- [x] 分享为图片，分享到 ShareGPT 链接 [#1741](https://github.com/Yidadaa/ChatGPT-Next-Web/pull/1741)
-- [x] 使用 tauri 打包桌面应用
-- [x] 支持自部署的大语言模型：开箱即用 [RWKV-Runner](https://github.com/josStorer/RWKV-Runner) ，服务端部署 [LocalAI project](https://github.com/go-skynet/LocalAI) llama / gpt4all / rwkv / vicuna / koala / gpt4all-j / cerebras / falcon / dolly 等等，或者使用 [api-for-open-llm](https://github.com/xusenlinzy/api-for-open-llm)
+- [x] Share as image, share to ShareGPT link [#1741](https://github.com/Yidadaa/ChatGPT-Next-Web/pull/1741)
+- [x] Use tauri to package desktop applications
+- [x] Support self-deployment of large language models: out-of-the-box [RWKV-Runner](https://github.com/josStorer/RWKV-Runner), server-side deployment [LocalAI project](https://github .com/go-skynet/LocalAI) llama / gpt4all / rwkv / vicuna / koala / gpt4all-j / cerebras / falcon / dolly and so on, or use [api-for-open-llm](https://github.com /xusenlinzy/api-for-open-llm)
 - [ ]Plug-in mechanism, support network search, calculator, and call other platforms api [#165](https://github.com/Yidadaa/ChatGPT-Next-Web/issues/165)
 
 ## Latest news
@@ -244,7 +250,7 @@ NodeJS >= 18, Docker >= 20
 Before starting development, you must create a new `.env.local` file at project root, and place your api key into it:
 
 ```
-OPENAI_API_KEY=<your api key here>
+OPENAI_API_KEY=
 
 # if you are not able to access openai service, use this BASE_URL
 BASE_URL=https://chatgpt1.nextweb.fun/api/proxy
@@ -315,53 +321,3 @@ bash <(curl -s https://raw.githubusercontent.com/Yidadaa/ChatGPT-Next-Web/main/s
 ![More](./docs/images/more.png)
 
 ## Translation
-
-If you want to add a new translation, read this [document](./docs/translation.md).
-
-## Donation
-
-[Buy Me a Coffee](https://www.buymeacoffee.com/yidadaa)
-
-## Special Thanks
-
-### Sponsor
-
-> 仅列出捐赠金额 >= 100RMB 的用户。
-
-[@mushan0x0](https://github.com/mushan0x0)
-[@ClarenceDan](https://github.com/ClarenceDan)
-[@zhangjia](https://github.com/zhangjia)
-[@hoochanlon](https://github.com/hoochanlon)
-[@relativequantum](https://github.com/relativequantum)
-[@desenmeng](https://github.com/desenmeng)
-[@webees](https://github.com/webees)
-[@chazzhou](https://github.com/chazzhou)
-[@hauy](https://github.com/hauy)
-[@Corwin006](https://github.com/Corwin006)
-[@yankunsong](https://github.com/yankunsong)
-[@ypwhs](https://github.com/ypwhs)
-[@fxxxchao](https://github.com/fxxxchao)
-[@hotic](https://github.com/hotic)
-[@WingCH](https://github.com/WingCH)
-[@jtung4](https://github.com/jtung4)
-[@micozhu](https://github.com/micozhu)
-[@jhansion](https://github.com/jhansion)
-[@Sha1rholder](https://github.com/Sha1rholder)
-[@AnsonHyq](https://github.com/AnsonHyq)
-[@synwith](https://github.com/synwith)
-[@piksonGit](https://github.com/piksonGit)
-[@ouyangzhiping](https://github.com/ouyangzhiping)
-[@wenjiavv](https://github.com/wenjiavv)
-[@LeXwDeX](https://github.com/LeXwDeX)
-[@Licoy](https://github.com/Licoy)
-[@shangmin2009](https://github.com/shangmin2009)
-
-### Contributors
-
-<a href="https://github.com/ChatGPTNextWeb/ChatGPT-Next-Web/graphs/contributors">
-  <img src="https://contrib.rocks/image?repo=ChatGPTNextWeb/ChatGPT-Next-Web" />
-</a>
-
-## LICENSE
-
-[MIT](https://opensource.org/license/mit/)

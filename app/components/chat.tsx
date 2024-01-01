@@ -1,3 +1,11 @@
+import { useNavigate } from "react-router-dom";
+
+export function SessionConfigModel(props: { onClose: () => void }) {
+  const chatStore = useChatStore();
+  const session = chatStore.currentSession();
+  const maskStore = useMaskStore();
+  const navigate = useNavigate();
+
 import { useDebouncedCallback } from "use-debounce";
 import React, {
   useState,
@@ -1326,4 +1334,5 @@ export function Chat() {
   const chatStore = useChatStore();
   const sessionIndex = chatStore.currentSessionIndex;
   return <_Chat key={sessionIndex}></_Chat>;
+}
 }

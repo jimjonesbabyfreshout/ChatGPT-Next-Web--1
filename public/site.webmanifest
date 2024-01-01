@@ -2,7 +2,7 @@
   "name": "NextChat",
   "short_name": "NextChat",
   "icons": [
-    l
+    
   ],
   "start_url": "/",
   "theme_color": "#ffffff",

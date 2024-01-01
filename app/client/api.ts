@@ -5,12 +5,12 @@ import {
   ServiceProvider,
 } from "../constant";
 import { ChatMessage, useAccessStore, useChatStore } from "../store";
-import { ChatGPTApi } from "./platforms/openai";
+// import { ChatGPTApi } from "./platforms/openai";
 
 export const ROLES = ["system", "user", "assistant"] as const;
 export type MessageRole = (typeof ROLES)[number];
 
-export const Models = ["gpt-3.5-turbo", "gpt-4"] as const;
+// export const Models = ["gpt-3.5-turbo", "gpt-4"] as const;
 export type ChatModel = (typeof Models)[number];
 
 export interface RequestMessage {
@@ -109,7 +109,7 @@ export function getHeaders() {
   };
   const modelConfig = useChatStore.getState().currentSession().mask.modelConfig;
   const authHeader = "Authorization";
-  const apiKey = accessStore.openaiApiKey;
+//  const apiKey = accessStore.openaiApiKey;
 
   const makeBearer = (s: string) => `Bearer ${s.trim()}`;
   const validString = (x: string) => x && x.length > 0;

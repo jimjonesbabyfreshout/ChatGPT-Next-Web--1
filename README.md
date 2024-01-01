@@ -71,37 +71,37 @@ One-Click to get a well-designed cross-platform ChatGPT web UI, with GPT3, GPT4 
 
 - 在 1 分钟内使用 Vercel **免费一键部署**
 - 提供体积极小（~5MB）的跨平台客户端（Linux/Windows/MacOS）, [下载地址](https://github.com/Yidadaa/ChatGPT-Next-Web/releases)
-- 完整的 Markdown 支持：LaTex 公式、Mermaid 流程图、代码高亮等等
-- 精心设计的 UI，响应式设计，支持深色模式，支持 PWA
-- 极快的首屏加载速度（~100kb），支持流式响应
-- 隐私安全，所有数据保存在用户浏览器本地
-- 预制角色功能（面具），方便地创建、分享和调试你的个性化对话
-- 海量的内置 prompt 列表，来自[中文](https://github.com/PlexPt/awesome-chatgpt-prompts-zh)和[英文](https://github.com/f/awesome-chatgpt-prompts)
-- 自动压缩上下文聊天记录，在节省 Token 的同时支持超长对话
-- 多国语言支持：English, 简体中文, 繁体中文, 日本語, Español, Italiano, Türkçe, Deutsch, Tiếng Việt, Русский, Čeština, 한국어, Indonesia
-- 拥有自己的域名？好上加好，绑定后即可在任何地方**无障碍**快速访问
+- Complete Markdown support: LaTex formulas, Mermaid flowcharts, code highlighting, etc.
+- Well-designed UI, responsive design, support for dark mode, support for PWA
+- Extremely fast first screen loading speed (~100kb), support streaming response
+- Privacy and security, all data is stored locally in the user's browser
+- Pre-made character function (mask), easy to create, share and debug your personalized conversations
+- Massive built-in prompt list, from 和[English](https://github.com/f/awesome-chatgpt-prompts)
+- Automatically compress contextual chat records to support long conversations while saving tokens
+- Multi-language support: English, Simplified Chinese, traditional Chinese, Japanese, Espanyol, Italiano, Türkçe, Deutsch, Tingng Vitt, Русский, Čeština, Indonesia
+- Own your own domain name?Good plus good, after binding, you can quickly access it anywhere**barrier-free**
 
-## 开发计划
+## Development plan
 
-- [x] 为每个对话设置系统 Prompt [#138](https://github.com/Yidadaa/ChatGPT-Next-Web/issues/138)
-- [x] 允许用户自行编辑内置 Prompt 列表
-- [x] 预制角色：使用预制角色快速定制新对话 [#993](https://github.com/Yidadaa/ChatGPT-Next-Web/issues/993)
+- [x] Set the system Prompt for each conversation [#138] (https://github.com/Yidadaa/ChatGPT-Next-Web/issues/138 )
+- [x] Allows users to edit the built-in Prompt list by themselves
+- [x] Prefabricated characters: Use prefabricated characters to quickly customize new conversations [#993](https://github.com/Yidadaa/ChatGPT-Next-Web/issues/993)
 - [x] 分享为图片，分享到 ShareGPT 链接 [#1741](https://github.com/Yidadaa/ChatGPT-Next-Web/pull/1741)
 - [x] 使用 tauri 打包桌面应用
-- [x] 支持自部署的大语言模型：开箱即用 [RWKV-Runner](https://github.com/josStorer/RWKV-Runner) ，服务端部署 [LocalAI 项目](https://github.com/go-skynet/LocalAI) llama / gpt4all / rwkv / vicuna / koala / gpt4all-j / cerebras / falcon / dolly 等等，或者使用 [api-for-open-llm](https://github.com/xusenlinzy/api-for-open-llm)
-- [ ] 插件机制，支持联网搜索、计算器、调用其他平台 api [#165](https://github.com/Yidadaa/ChatGPT-Next-Web/issues/165)
+- [x] 支持自部署的大语言模型：开箱即用 [RWKV-Runner](https://github.com/josStorer/RWKV-Runner) ，服务端部署 [LocalAI project](https://github.com/go-skynet/LocalAI) llama / gpt4all / rwkv / vicuna / koala / gpt4all-j / cerebras / falcon / dolly 等等，或者使用 [api-for-open-llm](https://github.com/xusenlinzy/api-for-open-llm)
+- [ ]Plug-in mechanism, support network search, calculator, and call other platforms api [#165](https://github.com/Yidadaa/ChatGPT-Next-Web/issues/165)
 
-## 最新动态
+## Latest news
 
-- 🚀 v2.0 已经发布，现在你可以使用面具功能快速创建预制对话了！ 了解更多： [ChatGPT 提示词高阶技能：零次、一次和少样本提示](https://github.com/Yidadaa/ChatGPT-Next-Web/issues/138)。
-- 💡 想要更方便地随时随地使用本项目？可以试下这款桌面插件：https://github.com/mushan0x0/AI0x0.com
-- 🚀 v2.7 现在可以将会话分享为图片了，也可以分享到 ShareGPT 的在线链接。
-- 🚀 v2.8 发布了横跨 Linux/Windows/MacOS 的体积极小的客户端。
-- 🚀 v2.9.11 现在可以使用自定义 Azure 服务了。
+- 🚀 v2.0 It has been released, now you can use the mask function to quickly create pre-made conversations! Learn more: [ChatGPT Prompt word Advanced skills: Zero times, one time and less sample prompts](https://github.com/Yidadaa/ChatGPT-Next-Web/issues/138)。
+- 💡 Want to use this project more conveniently anytime, anywhere? You can try this desktop plug-in:https://github.com/mushan0x0/AI0x0.com
+-In v2.7, you can now share the session as a picture, or you can share it to the online link of ShareGPT.
+-Microsoft v2.8 released a very small client that spans Linux/Windows/macOS.
+- 🚀v2.9.11 You can now use custom Azure services.
 
 ## Get Started
 
-> [简体中文 > 如何开始使用](./README_CN.md#开始使用)
+
 
 1. Get [OpenAI API Key](https://platform.openai.com/account/api-keys);
 2. Click
@@ -110,13 +110,12 @@ One-Click to get a well-designed cross-platform ChatGPT web UI, with GPT3, GPT4 
 
 ## FAQ
 
-[简体中文 > 常见问题](./docs/faq-cn.md)
+
 
 [English > FAQ](./docs/faq-en.md)
 
 ## Keep Updated
 
-> [简体中文 > 如何保持代码更新](./README_CN.md#保持更新)
 
 If you have deployed your own project with just one click following the steps above, you may encounter the issue of "Updates Available" constantly showing up. This is because Vercel will create a new project for you by default instead of forking this project, resulting in the inability to detect updates correctly.
 
@@ -144,7 +143,7 @@ You can star or watch this project or follow author to get release notifications
 
 ## Access Password
 
-> [简体中文 > 如何增加访问密码](./README_CN.md#配置页面访问密码)
+
 
 This project provides limited access control. Please add an environment variable named `CODE` on the vercel environment variables page. The value should be passwords separated by comma like this:
 
@@ -156,7 +155,7 @@ After adding or modifying this environment variable, please redeploy the project
 
 ## Environment Variables
 
-> [简体中文 > 如何配置 api key、访问密码、接口代理](./README_CN.md#环境变量)
+
 
 ### `CODE` (optional)
 
@@ -239,7 +238,6 @@ NodeJS >= 18, Docker >= 20
 
 ## Development
 
-> [简体中文 > 如何进行二次开发](./README_CN.md#开发)
 
 [![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/Yidadaa/ChatGPT-Next-Web)
 
@@ -263,8 +261,6 @@ yarn dev
 ```
 
 ## Deployment
-
-> [简体中文 > 如何部署到私人服务器](./README_CN.md#部署)
 
 ### Docker (Recommended)
 
@@ -301,7 +297,7 @@ bash <(curl -s https://raw.githubusercontent.com/Yidadaa/ChatGPT-Next-Web/main/s
 
 ## Synchronizing Chat Records (UpStash)
 
-| [简体中文](./docs/synchronise-chat-logs-cn.md) | [English](./docs/synchronise-chat-logs-en.md) | [Italiano](./docs/synchronise-chat-logs-es.md) | [日本語](./docs/synchronise-chat-logs-ja.md) | [한국어](./docs/synchronise-chat-logs-ko.md)
+|[English](./docs/synchronise-chat-logs-en.md)
 
 ## Documentation
 
@@ -309,9 +305,8 @@ bash <(curl -s https://raw.githubusercontent.com/Yidadaa/ChatGPT-Next-Web/main/s
 
 - [Deploy with cloudflare (Deprecated)](./docs/cloudflare-pages-en.md)
 - [Frequent Ask Questions](./docs/faq-en.md)
-- [How to add a new translation](./docs/translation.md)
 - [How to use Vercel (No English)](./docs/vercel-cn.md)
-- [User Manual (Only Chinese, WIP)](./docs/user-manual-cn.md)
+
 
 ## Screenshots
 
